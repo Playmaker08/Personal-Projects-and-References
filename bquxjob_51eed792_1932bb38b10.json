@@ -1,0 +1,233 @@
+[{
+  "customer_id": "2463",
+  "name": "Chad Lucero",
+  "address": "142 Wakehurst Drive",
+  "city": "Santa Clara",
+  "state": "CA",
+  "zipcode": "95050",
+  "country": "US"
+}, {
+  "customer_id": "5306",
+  "name": "Elouan Blanchard",
+  "address": "8328 North Cobblestone Avenue",
+  "city": "Pueblo",
+  "state": "CO",
+  "zipcode": "81001",
+  "country": "US"
+}, {
+  "customer_id": "9886",
+  "name": "Nomusa Knight",
+  "address": "8787 River Street",
+  "city": "Palm City",
+  "state": "FL",
+  "zipcode": "34990",
+  "country": "US"
+}, {
+  "customer_id": "3821",
+  "name": "Abel Black",
+  "address": "88 Beacon Lane",
+  "city": "Bonita Springs",
+  "state": "FL",
+  "zipcode": "34135",
+  "country": "US"
+}, {
+  "customer_id": "4374",
+  "name": "Alesia Rubio",
+  "address": "726 Charles Drive",
+  "city": "Douglasville",
+  "state": "GA",
+  "zipcode": "30134",
+  "country": "US"
+}, {
+  "customer_id": "2512",
+  "name": "Devadas Sloan",
+  "address": "8906 East John Street",
+  "city": "Carol Stream",
+  "state": "IL",
+  "zipcode": "60188",
+  "country": "US"
+}, {
+  "customer_id": "4957",
+  "name": "Korey Savage",
+  "address": "9258 Woodland Street",
+  "city": "Glen Ellyn",
+  "state": "IL",
+  "zipcode": "60137",
+  "country": "US"
+}, {
+  "customer_id": "4957",
+  "name": "Korey Savage",
+  "address": "9258 Woodland Street",
+  "city": "Glen Ellyn",
+  "state": "IL",
+  "zipcode": "60137",
+  "country": "US"
+}, {
+  "customer_id": "9815",
+  "name": "Romaine Dunlap",
+  "address": "72 1st Street",
+  "city": "Boston",
+  "state": "MA",
+  "zipcode": "2127",
+  "country": "US"
+}, {
+  "customer_id": "6355",
+  "name": "Annice Ruiz",
+  "address": "8352 Hartford Street",
+  "city": "Chevy Chase",
+  "state": "MD",
+  "zipcode": "20815",
+  "country": "USA"
+}, {
+  "customer_id": "1980",
+  "name": "Leocadia Andersen",
+  "address": "7015 Fairground Street",
+  "city": "Dearborn",
+  "state": "MI",
+  "zipcode": "48124",
+  "country": "US"
+}, {
+  "customer_id": "8940",
+  "name": "Ridley Velez",
+  "address": "280 Pennington Drive",
+  "city": "Clemmens",
+  "state": "NC",
+  "zipcode": "27012",
+  "country": "US"
+}, {
+  "customer_id": "8940",
+  "name": "Ridley Velez",
+  "address": "280 Pennington Drive",
+  "city": "Clemmens",
+  "state": "NC",
+  "zipcode": "27012",
+  "country": "US"
+}, {
+  "customer_id": "4524",
+  "name": "Reba Morris",
+  "address": "755 Hanover Street",
+  "city": "High Point",
+  "state": "NC",
+  "zipcode": "27265",
+  "country": "US"
+}, {
+  "customer_id": "4297",
+  "name": "Placide Chambers",
+  "address": "9212 Birchpond Street",
+  "city": "Winston Salem",
+  "state": "NC",
+  "zipcode": "27103",
+  "country": "US"
+}, {
+  "customer_id": "1268",
+  "name": "Trecia Costa",
+  "address": "32 Circle Drive",
+  "city": "Paterson",
+  "state": "NJ",
+  "zipcode": "7501",
+  "country": "US"
+}, {
+  "customer_id": "1978",
+  "name": "Stone Randall",
+  "address": "898 Peninsula Circle",
+  "city": "Oakland Gardens",
+  "state": "NY",
+  "zipcode": "11364",
+  "country": "US"
+}, {
+  "customer_id": "335",
+  "name": "Feliciana Gillespie",
+  "address": "62 Old Carriage Drive",
+  "city": "Mount Vernon",
+  "state": "NY",
+  "zipcode": "10550",
+  "country": "US"
+}, {
+  "customer_id": "2816",
+  "name": "McKinley Cummings",
+  "address": "7302 Surrey Court",
+  "city": "Ronkonkoma",
+  "state": "NY",
+  "zipcode": "11779",
+  "country": "US"
+}, {
+  "customer_id": "1928",
+  "name": "Jamaal Proctor",
+  "address": "374 New Lane",
+  "city": "Westerville",
+  "state": "OH",
+  "zipcode": "43081",
+  "country": "US"
+}, {
+  "customer_id": "7571",
+  "name": "Regan Wilcox",
+  "address": "55 Brewery Drive",
+  "city": "North Ridgeville",
+  "state": "OH",
+  "zipcode": "44039",
+  "country": "US"
+}, {
+  "customer_id": "1980",
+  "name": "Forest Grimes",
+  "address": "306 South Peninsula Road",
+  "city": "Dayton",
+  "state": "OH",
+  "zipcode": "45420",
+  "country": "US"
+}, {
+  "customer_id": "4687",
+  "name": "Ella Logan",
+  "address": "8758 Chapel Street",
+  "city": "Sandusky",
+  "state": "OH",
+  "zipcode": "44870",
+  "country": "US"
+}, {
+  "customer_id": "9080",
+  "name": "Magnolia Craig",
+  "address": "247 Paris Hill Avenue",
+  "city": "Solon",
+  "state": "OH",
+  "zipcode": "44139",
+  "country": "US"
+}, {
+  "customer_id": "9080",
+  "name": "Magnolia Craig",
+  "address": "247 Paris Hill Avenue",
+  "city": "Solon",
+  "state": "OH",
+  "zipcode": "44139",
+  "country": "USA"
+}, {
+  "customer_id": "9383",
+  "name": "Emelia Braun",
+  "address": "101 Military Street",
+  "city": "Blacksburg",
+  "state": "VA",
+  "zipcode": "24060",
+  "country": "US"
+}, {
+  "customer_id": "9607",
+  "name": "Josceline Mills",
+  "address": "784 Bridge Street",
+  "city": "Harrisonburg",
+  "state": "VA",
+  "zipcode": "22801",
+  "country": "US"
+}, {
+  "customer_id": "6323",
+  "name": "Kit Dixon",
+  "address": "115 Proctor Street",
+  "city": "Margantown",
+  "state": "WV",
+  "zipcode": "26508",
+  "country": "US"
+}, {
+  "customer_id": "9080",
+  "name": "Magnolia Craig",
+  "address": "247 Paris Hill Avenue",
+  "city": "Solon",
+  "state": "OH ",
+  "zipcode": "44139",
+  "country": "US"
+}]
