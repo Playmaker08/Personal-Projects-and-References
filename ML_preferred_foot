@@ -1,0 +1,75 @@
+# Import necessary libraries
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+import matplotlib.pyplot as plt
+
+# Simulating a dataset
+np.random.seed(42)
+
+# Number of samples
+n_samples = 1000
+
+# Create features
+data = {
+    "PassAccuracyLeft": np.random.uniform(50, 100, n_samples) + np.random.choice([-10, 10], n_samples),
+    "PassAccuracyRight": np.random.uniform(50, 100, n_samples) + np.random.choice([-10, 10], n_samples),
+    "ShotsOnTargetLeft": np.random.uniform(0, 50, n_samples) + np.random.choice([-10, 10], n_samples),
+    "ShotsOnTargetRight": np.random.uniform(0, 50, n_samples) + np.random.choice([-10, 10], n_samples),
+    "CrossesLeft": np.random.uniform(0, 30, n_samples) + np.random.choice([-5, 5], n_samples),
+    "CrossesRight": np.random.uniform(0, 30, n_samples) + np.random.choice([-5, 5], n_samples),
+}
+
+# Add a target variable (left-footed: 1, right-footed: 0)
+# Assuming players with higher left-footed stats are left-footed and vice versa
+data["Footedness"] = (data["PassAccuracyLeft"] > data["PassAccuracyRight"]).astype(int)
+
+# Convert to DataFrame
+df = pd.DataFrame(data)
+
+# Display the first few rows
+print("Sample of the simulated dataset:")
+print(df.head())
+
+# Splitting dataset into training and testing sets
+X = df.drop(columns=["Footedness"])
+y = df["Footedness"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Model Training
+model = RandomForestClassifier(random_state=42, n_estimators=100)
+model.fit(X_train, y_train)
+
+# Predictions
+y_pred = model.predict(X_test)
+
+# Evaluation Metrics
+print("\nAccuracy of the model:")
+print(f"{accuracy_score(y_test, y_pred) * 100:.2f}%")
+
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
+
+# Feature Importance
+importances = model.feature_importances_
+feature_importance_df = pd.DataFrame({
+    "Feature": X.columns,
+    "Importance": importances
+}).sort_values(by="Importance", ascending=False)
+
+print("\nFeature Importances:")
+print(feature_importance_df)
+
+# Plot feature importances
+plt.figure(figsize=(10, 6))
+plt.bar(feature_importance_df["Feature"], feature_importance_df["Importance"])
+plt.title("Feature Importance")
+plt.xlabel("Features")
+plt.ylabel("Importance Score")
+plt.show()
